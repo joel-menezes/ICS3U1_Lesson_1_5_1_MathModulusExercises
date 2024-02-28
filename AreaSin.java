@@ -13,12 +13,12 @@ class AreaSin extends ConsoleProgram {
     double dblAngleC;
     double dblArea;
 
-    // Asigning 
+    // Asigning Variables
     dblSideA = readDouble("What is side A: ");
     dblSideB = readDouble("What is side B: ");
     dblAngleC = readDouble("What is Angle in degrees C: ");
 
-    // Calculations
+    // Calculations of Area
     dblArea = (dblSideA *  dblSideB * Math.sin(Math.toRadians(dblAngleC)))/2;
 
     // Outputs 
